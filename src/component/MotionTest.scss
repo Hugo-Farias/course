@@ -1,0 +1,26 @@
+.motion-test {
+  display: flex;
+  flex-direction: column;
+  //justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  gap: 1.3rem;
+
+  & > li {
+    display: flex;
+    justify-content: space-between;
+    //cursor: n-resize;
+    list-style: none;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    padding-inline: 2rem;
+    width: 30rem;
+    background-color: gray;
+
+    & > .drag {
+      width: 3rem;
+      aspect-ratio: 1;
+      background-color: black;
+    }
+  }
+}
